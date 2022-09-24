@@ -5,8 +5,8 @@ end_race = False
 screen = T.Screen()
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color: ")
-colors = ["red", "orange", "yellow", "green", "blue", "purple"]
-y_positions = [-70, -40, -10, 20, 50, 80]
+colors = ["red", "orange", "yellow", "green", "blue", "purple", "black"]
+y_positions = [-70, -40, -10, 20, 50, 80, 110]
 all_turtles = []
 
 for turtle_index in range(0, len(colors)):
